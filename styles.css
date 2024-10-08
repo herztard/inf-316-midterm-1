@@ -250,3 +250,39 @@ button[type="submit"]:hover {
     height: 24px;
     margin-right: 0.5rem;
 }
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .nav-links {
+        display: flex;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    .me {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .me img {
+        margin-right: 2rem;
+    }
+
+    .family-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hobbies-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
