@@ -71,7 +71,7 @@ h2 {
 
 /* Footer Styles */
 footer {
-    background-color: #1a202c;
+    background-color: #10002b;
     color: white;
     text-align: center;
     padding: 1rem 0;
@@ -127,4 +127,30 @@ footer {
     height: 150px;
     border-radius: 50%;
     margin-bottom: 1rem;
+}
+
+/* Education Page Styles */
+.timeline {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.timeline li {
+    margin-bottom: 0.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    border: 1px solid #d1b1ff;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+th {
+    background-color: #fbe4ff;
 }
