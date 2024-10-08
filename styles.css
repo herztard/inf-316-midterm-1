@@ -286,3 +286,17 @@ button[type="submit"]:hover {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+@media (min-width: 1024px) {
+    .family-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hobbies-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
