@@ -250,7 +250,8 @@ header {
 #header-pages{
     padding-top: 120px;
     padding-bottom: 120px;
-    z-index: 9999;
+    align-items: center;
+    display: flex;
 }
 
 .section-content{
