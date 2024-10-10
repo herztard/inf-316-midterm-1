@@ -380,7 +380,6 @@ footer {
     width: 100%;
     height: auto;
     border-radius: 0.5rem;
-
     margin-bottom: 1rem;
 }
 
@@ -468,16 +467,29 @@ input, textarea {
 }
 
 button[type="submit"] {
-    background-color: #7b2cbf;
-    color: white;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 0.25rem;
+    background: transparent;
+    border: 3px solid #191919;
+    justify-content: center;
+    color: #191919;
     cursor: pointer;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 11px;
+    word-spacing: 1px;
+    transition: all 0.4s;
 }
 
 button[type="submit"]:hover {
-    background-color: #5a189a;
+    color: #ffffff;
+    background: #191919;
+    border: 1px solid #191919;
 }
 
 .social-links {
