@@ -300,8 +300,9 @@ nav {
 }
 
 .image-background{
-    background: url(./img/background-1.png);
     width: 100%;
+    background: url(./img/background-1.png) center;
+    display: flex;
 }
 /* Main Content Styles */
 
