@@ -1,24 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Montserrat, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     color: #333;
+    z-index: 9999;
 }
 
 .container {
     width: 90%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 0 20px;
 }
 
+.white{
+    color: #e5e5e5;
+}
+
+.big-text h2{
+    max-width: 600px;
+}
+
+.big-text h3{
+    max-width: 800px;
+}
+
+.big-text h2,
+.big-text-full h2{
+    letter-spacing: 1px;
+}
+
+.big-text h3,
+.big-text-full h3{
+    letter-spacing: 0;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+
+/* Font Sizes*/
+.f-smaller{
+    font-size: 10px;
+}
+
+.f-small{
+    font-size: 13px;
+
+}
+
+.f-normal{
+    font-size: 16px;
+
+}
+
+.f-semi-expanded{
+    font-size: 1.5em;
+
+}
+
+.f-medium{
+    font-size: 28px;
+
+}
+
+.f-expanded{
+    font-size: 2.5em;
+
+}
+
+.f-big{
+    font-size: 45px;
+}
+
+.f-large{
+    font-size: 3.6em;
+}
+
+.f-extra-expanded{
+    font-size: 6em;
+}
+
+/* Font Weight*/
+.ultrabold{
+    font-weight: 900;
+}
+
+.extrabold{
+    font-weight: 800;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.semibold{
+    font-weight: 600;
+}
+
+.normal{
+    font-weight: 400;
+}
+
+.light{
+    font-weight: 300;
+}
+
+.lighter{
+    font-weight: 100;
+}
+
+
+/* Font Positions */
+.big-text i{
+    font-size: 7em;
+}
+
+.t-left{
+    text-align:left !important;
+}
+
+.t-center{
+    text-align:center !important;
+}
+
+.t-right{
+    text-align:right !important;
+}
+
+/* Font Transformation*/
+.italic{
+    font-style: italic;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+
+.margin-auto{
+    margin: auto;
+}
+
+.no-padding{
+    padding:0 !important;
+}
+
+.no-padding-top{
+    padding-top:0 !important;
+}
+
+.no-padding-bottom{
+    padding-bottom:0 !important;
+}
+
+.no-margin{
+    margin:0 !important;
+}
+
+.no-margin-bottom{
+    margin-bottom:0 !important;
+}
+
+.no-margin-left{
+    margin-left:0 !important;
+}
+
+.no-margin-right{
+    margin-right:0 !important;
+}
+
+.no-margin-top{
+    margin-top:0 !important;
+}
+
+.no-margin-bottom{
+    margin-bottom:0 !important;
+}
+
+.no-border{
+    border: none !important;
+}
+
+.no-letter-spacing{
+    letter-spacing: 0 !important;
+}
+
+.margin-bottom-60px{
+    margin-bottom: 120px;
+}
+
+
+.sections{
+    width: 100%;
+    z-index:1;
+}
+
+
 /* Header Styles */
 header {
-    background-color: #3c096c;
+    background-color: #252525;
     color: white;
     padding: 1rem 0;
+    z-index: 9999;
+}
+
+#header-pages{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    z-index: 9999;
+}
+
+.section-content{
+    padding: 0 10% 0 10%;
+    z-index: 9999;
 }
 
 nav {
@@ -41,11 +252,16 @@ nav {
 .nav-links a {
     color: white;
     text-decoration: none;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
 }
 
 .nav-links a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #fdcb1c;
 }
 
 .menu-button {
@@ -56,6 +272,10 @@ nav {
     cursor: pointer;
 }
 
+.image-background{
+    background: url(./img/background-1.png);
+    width: 100%;
+}
 /* Main Content Styles */
 
 h1 {
@@ -84,12 +304,13 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    z-index: 9999;
+
 }
 
 .me img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
     margin-bottom: 1rem;
 }
 
