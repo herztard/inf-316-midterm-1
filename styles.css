@@ -400,13 +400,13 @@ table {
 }
 
 th, td {
-    border: 1px solid #d1b1ff;
+    border: 1px solid #959595;
     padding: 0.5rem;
     text-align: left;
 }
 
 th {
-    background-color: #fbe4ff;
+    background-color: #c8c8c8;
 }
 
 /* Hobbies Page Styles */
