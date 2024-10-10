@@ -21,27 +21,6 @@ body {
     color: #e5e5e5;
 }
 
-.big-text h2{
-    max-width: 600px;
-}
-
-.big-text h3{
-    max-width: 800px;
-}
-
-.big-text h2,
-.big-text-full h2{
-    letter-spacing: 1px;
-}
-
-.big-text h3,
-.big-text-full h3{
-    letter-spacing: 0;
-    word-spacing: 2px;
-    margin-bottom: 30px;
-    line-height: 1.2;
-}
-
 /* Buttons
 -------------------------*/
 .button{
@@ -72,10 +51,6 @@ body {
 
 
 /* Font Sizes*/
-.f-smaller{
-    font-size: 10px;
-}
-
 .f-small{
     font-size: 13px;
 
@@ -86,31 +61,15 @@ body {
 
 }
 
-.f-semi-expanded{
-    font-size: 1.5em;
-
-}
 
 .f-medium{
     font-size: 20px;
-}
-
-.f-expanded{
-    font-size: 2.5em;
-
-}
-
-.f-big{
-    font-size: 45px;
 }
 
 .f-large{
     font-size: 2.5rem;
 }
 
-.f-extra-expanded{
-    font-size: 6em;
-}
 
 /* Font Weight*/
 .ultrabold{
@@ -125,22 +84,9 @@ body {
     font-weight: 700;
 }
 
-.semibold{
-    font-weight: 600;
-}
-
 .normal{
     font-weight: 400;
 }
-
-.light{
-    font-weight: 300;
-}
-
-.lighter{
-    font-weight: 100;
-}
-
 
 /* Font Positions */
 .big-text i{
@@ -160,38 +106,15 @@ body {
 }
 
 /* Font Transformation*/
-.italic{
-    font-style: italic;
-}
 
 .uppercase{
     text-transform: uppercase;
-}
-
-.lowercase{
-    text-transform: lowercase;
-}
-
-.underline{
-    text-decoration: underline;
-}
-
-.line-through{
-    text-decoration: line-through;
-}
-
-
-.margin-auto{
-    margin: auto;
 }
 
 .no-padding{
     padding:0 !important;
 }
 
-.no-padding-top{
-    padding-top:0 !important;
-}
 
 .no-padding-bottom{
     padding-bottom:0 !important;
@@ -205,37 +128,13 @@ body {
     margin-bottom:0 !important;
 }
 
-.no-margin-left{
-    margin-left:0 !important;
-}
-
-.no-margin-right{
-    margin-right:0 !important;
-}
-
 .no-margin-top{
     margin-top:0 !important;
 }
 
-.no-margin-bottom{
-    margin-bottom:0 !important;
-}
-
-.no-border{
-    border: none !important;
-}
-
-.no-letter-spacing{
-    letter-spacing: 0 !important;
-}
 
 .margin-bottom-60px{
     margin-bottom: 120px;
-}
-
-.sections{
-    width: 100%;
-    z-index:1;
 }
 
 
@@ -376,15 +275,6 @@ nav {
 .menu-list a:hover {
     text-decoration: none;
     color: #fdcb1c;
-}
-
-.menu-item {
-    display: block;
-    padding: 8px;
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    text-decoration: none;
 }
 
 .menu-item:hover {
