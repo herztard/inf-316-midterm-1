@@ -92,7 +92,7 @@ body {
 }
 
 .f-medium{
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .f-expanded{
@@ -105,7 +105,7 @@ body {
 }
 
 .f-large{
-    font-size: 3.6em;
+    font-size: 2.5rem;
 }
 
 .f-extra-expanded{
@@ -566,6 +566,14 @@ button[type="submit"]:hover {
         flex-direction: row;
         gap: 1rem;
     }
+
+    .f-large{
+        font-size: 3.6em;
+    }
+
+    .f-medium{
+        font-size: 28px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -604,6 +612,14 @@ button[type="submit"]:hover {
         display: flex;
         flex-direction: row;
         gap: 1rem;
+    }
+
+    .f-large{
+        font-size: 3.6em;
+    }
+
+    .f-medium{
+        font-size: 28px;
     }
 }
 
@@ -644,5 +660,13 @@ button[type="submit"]:hover {
         display: flex;
         flex-direction: row;
         gap: 1rem;
+    }
+
+    .f-large{
+        font-size: 3.6em;
+    }
+
+    .f-medium{
+        font-size: 28px;
     }
 }
